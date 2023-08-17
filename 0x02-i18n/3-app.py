@@ -5,7 +5,6 @@ Module for trying out Babel i18n
 from flask_babel import Babel, _
 from flask import Flask, render_template, request, flash
 
-# configure the flask app
 app = Flask(__name__, template_folder='templates')
 babel = Babel(app)
 
